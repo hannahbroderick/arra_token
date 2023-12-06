@@ -1,5 +1,5 @@
-// The 'nrm_token' program.
-program nrm_token.aleo {
+// The 'arra_token' program.
+program arra_token.aleo {
     record Token {
         owner: address;
         balance: u32;
@@ -7,7 +7,7 @@ program nrm_token.aleo {
 
     // Only us can mint tokens.
     transition mint(balance: u32) -> Token  {
-        assert_eq(self.caller, aleo1zpsr2qlhxwarg8j3tjtv4rusd2muld7aj5fzrt8dvqz263n6xgqqe9ps3j);
+        assert_eq(self.caller, aleo1g64khdvelnrhewlucyzqftycys2jsx8kl8x798n6dc59hd5as58sum3y95);
          return  Token {
                 owner: self.caller,
                 balance: balance
