@@ -1,4 +1,4 @@
-# nrm_token.aleo
+# arra_token.aleo
 
 Basic project to test [Aleo](https://aleo.org/)
 ## Build Guide
